@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+font-style: normal;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #0f0d0d;
+  position: relative;
+}
+
+h1 {
+  font-size: 110px;
+  line-height: 100%;
+  color: #AF2831;
+  font-weight: 700;
+}
+h2 {
+  font-size: 64px;
+  line-height: 100%;
+  color: #F9EEEF;
+}
+h3 {
+  font-size: 48px;
+  line-height: 110%;
+  color: #F9EEEF;
+}
+h4 {
+  font-size: 36px;
+  line-height: 120%;;
+  color: #F9EEEF;
+}
+h5 {
+  font-size: 24px;
+  line-height: 130%;
+  font-weight: 700;
+  color: #F9EEEF;
+}
+h6 {
+  font-size: 18px;
+  line-height: 140%;
+  color: #F9EEEF;
+}
+
+p{
+  color: #8C8888;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 56px 24px;
+  position: relative;
+}
+
+.mt-1{
+  margin-top: 8px;
+}
+
+.mt-2{
+  margin-top: 16px;
+}
+
+.mt-3{
+  margin-top: 24px;
+}
+
+.mt-4{
+  margin-top: 32px;
+}
+
+.mb-1{
+  margin-bottom: 8px;
+}
+
+.mb-2{
+  margin-bottom: 16px;
+}
+
+.mb-3{
+  margin-bottom: 24px;
+}
+
+.mb-4{
+  margin-bottom: 32px;
+}
+
+.loader{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction {
+    width: 100%;
+    height: 100vh;
+    background-color: #0f0d0d;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-svg-intro{
+    animation: logo-intro-animation 5s  ease ;
+    transform-box: fill-box;
+}
+
+.shadows{
+    position: relative;
+
+}
+
+.shadows::after {
+        content: '';
+        z-index: -6;
+        position: absolute;
+        top: 150px;
+        left: 30%;
+        width: 100px;
+        height: 100px;
+        border: 0;
+        border-radius: 50%;
+        background-color: #AF2831;
+        filter: blur(80px);
+    }
+
+
+@keyframes logo-intro-animation{
+    0%{
+        stroke-dasharray: 0 32;
+        fill-opacity: 0;
+    }
+    50%{
+        stroke-dasharray: 32 0;
+        fill-opacity: 0;
+    }
+    100%{
+        stroke-dasharray: 32 0;
+        fill-opacity: 1;
+    }
+}
+
+
+.name-intro{
+    animation: name-intro-animation 2s 3s ease forwards;
+    opacity: 0;
+}
+
+@keyframes name-intro-animation{
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+  h1 {
+  font-size: 64px;
+  line-height: 100%
+  
+}
+  h2 {
+    font-size: 40px;
+    line-height: 110%;
+  }
+  h3 {
+    font-size: 32px;
+    line-height: 120%;
+  }
+  h4 {
+    font-size: 28px;
+    line-height: 130%;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 140%;
+  }
+  h6 {
+    font-size: 16px;
+    line-height: 150%;
+  }
+  
+}

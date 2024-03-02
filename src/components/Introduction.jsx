@@ -21,7 +21,7 @@ const Introduction = () => {
             ease: "expo.Out",
         });
 
-        return () => tl.kill(); // Encerrar a animação quando o componente for desmontado
+        return () => tl.kill();
     }, []);
 
     return (

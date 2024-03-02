@@ -24,9 +24,11 @@ Foram utilizadas as seguintes tecnologias:
 Windows, MacOs ou Linux: Por ser um projeto React usando Vite, possui alguns passos a serem seguindos para fazer a instalação:
 
 * Abra seu editor de código, indico utilizar o VSCode
-* Abra um novo terminal, clicando na aba "Terminal" e depois na opção "Novo terminal" ou utilizando o comando "Ctrl + shift + ' "
-* Após isso é necessário instalar todas as dependências do projeto utilizando o comando "npm install" no terminal
-* Feito isso é só digitar o comando "npm run dev" e esperar o servidor local ser iniciado e dar um "Ctrl + clique" na URL que o servidor local disponibilizará.
+* git init
+* "git pull url_do_repositório.git"
+* editar o arquivo .env.example para .env
+* npm install
+* npm run dev
 
 ## 🚀 Contribuição
 

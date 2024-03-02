@@ -22,7 +22,7 @@ const MainGrid = () => {
     useEffect(() => {
         async function getMovies() {
             let currentPage = 1;
-            let totalPages = 120;
+            let totalPages = 60;
             let fetchedMovies = [];
             setLoading(true);
 

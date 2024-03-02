@@ -26,6 +26,7 @@ Windows, MacOs ou Linux: Por ser um projeto React usando Vite, possui alguns pas
 * Abra seu editor de código, indico utilizar o VSCode
 * git init
 * "git pull url_do_repositório.git"
+* editar o arquivo .env.example para .env
 * npm install
 * npm run dev
 

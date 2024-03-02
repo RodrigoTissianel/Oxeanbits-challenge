@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
-font-style: normal;
+  font-style: normal;
 }
 
 body {
@@ -101,71 +101,71 @@ p{
 }
 
 .introduction {
-    width: 100%;
-    height: 100vh;
-    background-color: #0f0d0d;
-    position: fixed;
-    z-index: 999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #0f0d0d;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .logo-svg-intro{
-    animation: logo-intro-animation 5s  ease ;
-    transform-box: fill-box;
+  animation: logo-intro-animation 5s  ease ;
+  transform-box: fill-box;
 }
 
 .shadows{
-    position: relative;
+  position: relative;
 
 }
 
 .shadows::after {
-        content: '';
-        z-index: -6;
-        position: absolute;
-        top: 150px;
-        left: 30%;
-        width: 100px;
-        height: 100px;
-        border: 0;
-        border-radius: 50%;
-        background-color: #AF2831;
-        filter: blur(80px);
-    }
+  content: '';
+  z-index: -6;
+  position: absolute;
+  top: 150px;
+  left: 30%;
+  width: 100px;
+  height: 100px;
+  border: 0;
+  border-radius: 50%;
+  background-color: #AF2831;
+  filter: blur(80px);
+}
 
 
 @keyframes logo-intro-animation{
-    0%{
-        stroke-dasharray: 0 32;
-        fill-opacity: 0;
-    }
-    50%{
-        stroke-dasharray: 32 0;
-        fill-opacity: 0;
-    }
-    100%{
-        stroke-dasharray: 32 0;
-        fill-opacity: 1;
-    }
+  0%{
+    stroke-dasharray: 0 32;
+    fill-opacity: 0;
+  }
+  50%{
+    stroke-dasharray: 32 0;
+    fill-opacity: 0;
+  }
+  100%{
+    stroke-dasharray: 32 0;
+    fill-opacity: 1;
+  }
 }
 
 
 .name-intro{
-    animation: name-intro-animation 2s 3s ease forwards;
-    opacity: 0;
+  animation: name-intro-animation 2s 3s ease forwards;
+  opacity: 0;
 }
 
 @keyframes name-intro-animation{
-    0%{
-        opacity: 0;
-        
-    }
-    100%{
-        opacity: 1;
-    }
+  0%{
+      opacity: 0;
+      
+  }
+  100%{
+      opacity: 1;
+  }
 }
 
 
